@@ -5,6 +5,8 @@ from playsound import playsound
 
 
 def crack_the_safe():
+    while True:
+        try_code(random.randint(999000, 999999))
     pass
     # TODO: Your mission: Use the try_code method to crack the safe
     #  by trying all possible combinations
